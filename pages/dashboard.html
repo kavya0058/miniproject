@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Library Dashboard</title>
+
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            📚 Digital Library
+        </div>
+
+        <nav>
+            <a href="#" class="active" onclick="showSection('dashboard')">
+                Dashboard
+            </a>
+
+            <a href="#" onclick="showSection('books')">
+                Books
+            </a>
+
+            <a href="#" onclick="showSection('members')">
+                Members
+            </a>
+
+            <a href="#" onclick="showSection('issue')">
+                Issue Book
+            </a>
+
+            <a href="#" onclick="showSection('return')">
+                Return Book
+            </a>
+
+            <a href="#" onclick="showSection('reports')">
+                Reports
+            </a>
+
+            <a href="#" onclick="showSection('about')">
+                About
+            </a>
+
+            <a href="../pages/login.html" class="logout">
+                Logout
+            </a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section">
+
+            <h1>Welcome to Digital Library</h1>
+
+            <p class="subtitle">
+                Manage your library easily and efficiently.
+            </p>
+
+
+            <!-- Summary Cards -->
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">📚</div>
+                    <h3>Total Books</h3>
+                    <p>120</p>
+                </div>
+
+
+                <div class="card">
+                    <div class="icon">👥</div>
+                    <h3>Total Members</h3>
+                    <p>50</p>
+                </div>
+
+
+                <div class="card">
+                    <div class="icon">📖</div>
+                    <h3>Books Issued</h3>
+                    <p>20</p>
+                </div>
+
+
+                <div class="card">
+                    <div class="icon">↩️</div>
+                    <h3>Books Returned</h3>
+                    <p>100</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Books -->
+        <section id="books" class="section hidden">
+
+            <h2>Books</h2>
+
+            <p>
+                Books management section will be available here.
+            </p>
+
+        </section>
+
+
+        <!-- Members -->
+        <section id="members" class="section hidden">
+
+            <h2>Members</h2>
+
+            <p>
+                Members management section will be available here.
+            </p>
+
+        </section>
+
+
+        <!-- Issue Book -->
+        <section id="issue" class="section hidden">
+
+            <h2>Issue Book</h2>
+
+            <p>
+                Issue book section will be available here.
+            </p>
+
+        </section>
+
+
+        <!-- Return Book -->
+        <section id="return" class="section hidden">
+
+            <h2>Return Book</h2>
+
+            <p>
+                Return book section will be available here.
+            </p>
+
+        </section>
+
+
+        <!-- Reports -->
+        <section id="reports" class="section hidden">
+
+            <h2>Reports</h2>
+
+            <p>
+                Library reports will be available here.
+            </p>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section hidden">
+
+            <h2>About Library</h2>
+
+            <p>
+                Digital Library Management System helps
+                manage books, members and library activities.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="../js/dashboard.js"></script>
+
+</body>
+
+</html>
